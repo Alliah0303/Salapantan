@@ -6,7 +6,7 @@ const Projects = () => {
     return(
         <section id="projects" className="flex flex-col text-center text-[#A020F0] gap-[2rem]">
             <div className="w-[100%] bg-[#A020F0] py-[2rem] md:py-[4rem]">
-                <h1 className="text-[3rem] text-[#fff] font-semibold font-oswald">MY PROJECTS</h1>
+                <h1 className="text-[3rem] text-[#fff] font-semibold">MY PROJECTS</h1>
                 <p className="text-[1.2rem] text-[#000] tracking-[.5rem]">MADE WITH LOVE</p>
             </div>
             <div className="px-[1rem] md:px-[10rem] py-[2rem]">

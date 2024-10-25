@@ -1,0 +1,55 @@
+
+  nav li {
+    font-family: "Kumbh Sans", sans-serif;
+  }
+  
+  nav a {
+    color: black;
+    position: relative;
+    overflow: hidden;
+    transition: color 0.3s ease; /* Transition for color change */
+  }
+  
+  nav a:hover {
+    color: #d3b7f7; /* Change color on hover */
+  }
+  
+  nav a::after {
+    content: '';
+    position: absolute;
+    left: 50%;
+    bottom: -5px;
+    width: 0;
+    height: 2px;
+    background-color: #61dafb;
+    transition: width 0.4s ease, left 0.4s ease;
+  }
+  
+  nav a:hover::after {
+    width: 100%;
+    left: 0;
+  }
+
+@keyframes moveText {
+    0% {
+        transform: translateY(0);
+    }
+    50% {
+        transform: translateY(-10px); /* Adjust this value for more or less movement */
+    }
+    100% {
+        transform: translateY(0);
+    }
+}
+
+.movable {
+    animation: moveText 1s ease-in-out infinite; /* Adjust duration and easing as needed */
+}
+.hey{
+    margin-top: 80px;
+}
+@media (max-width: 640px) {
+    .hey{
+        margin-top: -50px;
+    } 
+}

@@ -4,6 +4,7 @@ import Icons3 from '../assets/Figma.svg'
 import Icons4 from '../assets/React.svg'
 import Icons5 from '../assets/Nodejs.svg'
 import Icons6 from '../assets/Visual Studio Code.svg'
+import "./About.css"
 
 const About = () => {
     return(
@@ -30,14 +31,12 @@ const About = () => {
             <div className='self-center'>
                 <h1 className="font-semibold text-[2rem] mb-[1rem]">My SKILLS</h1>
                 <ul className='icon-list flex flex-col items-center gap-[2rem] md:flex-row'>
-            
-                    <li><img src={Icons1}></img>HTML </li> 
-                    <li><img src={Icons2}></img>CSS </li>
-                    <li><img src={Icons3}></img>FIGMA </li>
-                    <li><img src={Icons4}></img>REACTJS</li>
-                    <li><img src={Icons5}></img>NODEJS</li>
-                    <li><img src={Icons6}></img>VSCODE</li>
-
+                     <li><img src={Icons1} className="icon" alt="HTML" /> HTML</li> 
+                     <li><img src={Icons2} className="icon" alt="CSS" /> CSS</li>
+                     <li><img src={Icons3} className="icon" alt="Figma" /> FIGMA</li>
+                     <li><img src={Icons4} className="icon" alt="ReactJS" /> REACTJS</li>
+                     <li><img src={Icons5} className="icon" alt="NodeJS" /> NODEJS</li>
+                     <li><img src={Icons6} className="icon" alt="VSCode" /> VSCODE</li>
                 </ul>
             </div>
         </section>

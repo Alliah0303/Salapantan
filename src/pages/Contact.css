@@ -1,0 +1,16 @@
+@keyframes moveIcons {
+    0%, 100% {
+        transform: translateY(0);
+    }
+    50% {
+        transform: translateY(-10px); /* Adjust the distance as needed */
+    }
+}
+
+.social-icons .media {
+    transition: transform 0.3s ease; /* Smooth transition on hover */
+}
+
+.social-icons .media:hover {
+    transform: rotate(15deg); /* Slight rotation on hover */
+}
