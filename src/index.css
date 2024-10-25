@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html {
+  scroll-behavior: smooth;
+}
+
+.home {
+  background: linear-gradient(to bottom, #A020F0, #7918b5);
+}
+
+.imageMob {
+  border-radius: 30%;
+  overflow: hidden;
+}
+
+.imageMob img {
+  width: 300px;
+  height: 350px;
+  object-fit: cover;
+}
+
+.imageDesk img {
+  width: 100%;
+  height: 100%;
+}
+
+.icon-list li {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+}
+
+.proj p {
+  width: 100%;
+}
+
+@media (min-width: 640px) {
+  .proj p {
+    width: 70%;
+  }
+}
