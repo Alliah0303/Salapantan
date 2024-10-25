@@ -38,11 +38,3 @@
 .movable {
     animation: moveText 1s ease-in-out infinite; /* Adjust duration and easing as needed */
 }
-.hey{
-    margin-top: 80px;
-}
-@media (max-width: 640px) {
-    .hey{
-        margin-top: -50px;
-    } 
-}

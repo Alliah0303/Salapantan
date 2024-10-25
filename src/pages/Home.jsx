@@ -16,7 +16,7 @@ const Home = () => {
                 </nav>
                 <div className="self-center">
                    <div className="lg:leading-[5rem]">
-                   <h1 className="movable text-[#fff] text-[2rem] pt-[3rem] font-oswald md:text-[4rem]">Let's Bring Your Ideas to Life with Design and Development</h1>
+                   <h1 className="hey movable text-[#fff] text-[2rem] pt-[2rem] font-oswald md:text-[4rem]">Let's Bring Your Ideas to Life with Design and Development</h1>
                 </div>
                 </div>
             </div>
