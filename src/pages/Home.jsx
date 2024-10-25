@@ -32,8 +32,11 @@ const Home = () => {
                 </div>
             </div>
             <div className="imageDesk w-[50%] hidden md:block absolute right-0" >
-            
-            { <img src={pic} alt="" /> }
+            <ParallaxBanner
+            layers={[{ image: '/pickoto.png', speed: 5, translateY: -30 }]}
+            className="aspect-[1/1] hidden md:block h-screen"
+            />
+            { /*<img src={picc} alt="" /> */}
             </div>
             <div className="imageMob self-center md:hidden">
                 <img src={pic} alt="" />
