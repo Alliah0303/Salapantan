@@ -1,5 +1,5 @@
 import { ParallaxBanner } from "react-scroll-parallax";
-import pic from "../assets/pikmo6.png"
+import pic from "../assets/pickoto.png"
 import "./Home.css"
 import TypingAnimation from "@/components/ui/typing-animation";
 import Aos from "aos";
@@ -33,7 +33,7 @@ const Home = () => {
             </div>
             <div className="imageDesk w-[50%] hidden md:block absolute right-0" >
             <ParallaxBanner
-            layers={[{ image: 'src/assets/pikmo6.png', speed: 5, translateY: -30 }]}
+            layers={[{ image: 'src/assets/pickoto.png', speed: 5, translateY: -30 }]}
             className="aspect-[1/1] hidden md:block h-screen"
             />
             {/* <img src={picc} alt="" /> */}
