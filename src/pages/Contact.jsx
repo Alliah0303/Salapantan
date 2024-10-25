@@ -8,7 +8,7 @@ const Contact = () => {
       <section className="bg-[#A020F0] text-center pt-[2rem]" id='contact'>
           <h2 className="connect text-[#fff] text-[2rem] ">CONNECT WITH ME</h2>
           <p className="social font-medium">ON MY SOCIAL NETWORKS OR EMAIL</p>
-          <ul className="social-icons flex flex-col items-center justify-center gap-[5rem] mt-[8rem] sm:flex-row"> 
+          <ul className="social-icons flex flex-col items-center justify-center gap-[5rem] mt-[6rem] sm:flex-row"> 
               <li className='media'>
                   <a href='https://www.facebook.com/profile.php?id=100020038524919&mibextid=ZbWKwL'> 
                       <img src={facebook} alt="Facebook" />
@@ -25,7 +25,7 @@ const Contact = () => {
                   </a>
               </li>
           </ul>
-          <div className='gmail my-[8rem]'>
+          <div className='gmail my-[5rem]'>
               <a href="mailto:salapantan.judealliahsit2011@gmail.com" target='-blank' className="email font-medium">
                   <p className='md:tracking-[.5rem]'>salapantan.judealliahsit2011@gmail.com</p>
               </a> 
