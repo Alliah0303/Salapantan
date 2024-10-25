@@ -5,30 +5,36 @@ import Icons4 from '../assets/React.svg'
 import Icons5 from '../assets/Nodejs.svg'
 import Icons6 from '../assets/Visual Studio Code.svg'
 import "./About.css"
+import Aos from "aos";
+import "aos/dist/aos.css"
+import { useEffect } from "react";
 
 const About = () => {
+    useEffect(()=>{
+        Aos.init();
+    }, [])
     return(
         <section className="px-[1rem] flex flex-col text-center md:px-[10rem] text-[#A020F0] pt-[5rem] pb-[3rem] gap-[2rem]" id='about'>
             <div>
-                <h1 className="font-semibold text-[2rem] mb-[1rem]">ABOUT ME</h1>
-                <p>
+                <h1 className="font-semibold text-[2rem] mb-[1rem]"data-aos="fade-up"data-aos-duration="2000">ABOUT ME</h1>
+                <p data-aos="fade-up"data-aos-duration="2000" >
                 Hello! I'm Jude Alliah S. Salapantan, a 20-year-old student currently in my 3rd year of college, pursuing a Bachelor of Science in Information Technology (BSIT). I previously graduated from the Western Institute of Technology with high honors, where I studied the TVL-ICT strand. My passion for technology drives me to continuously expand my knowledge and skills in the field of IT.
                 </p>
             </div>
 
-            <div className="flex flex-col gap-[1rem]">
-                <h1 className="font-semibold text-[2rem]">MY BACKGROUND</h1>
-                <p>
+            <div className="flex flex-col gap-[1rem]" >
+                <h1 className="font-semibold text-[2rem]" data-aos="fade-up"data-aos-duration="2000" >MY BACKGROUND</h1>
+                <p data-aos="fade-up" data-aos-duration="2000">
                 Growing up in Suarez St., San Miguel, Iloilo, I have always been surrounded by a supportive community that values education and hard work. From a young age, I was fascinated by how technology could change the way we live and work, which inspired me to pursue the TVL-ICT strand at the Western Institute of Technology, where I graduated.
                 </p>
-                <p>
+                <p data-aos="fade-up"data-aos-duration="2000">
                 Driven by my passion for technology and its potential to solve real-world problems, I continued my education in a Bachelor of Science in Information Technology (BSIT) program, where I am currently in my 3rd year. During this time, I have been developing my skills and gaining a strong foundation in both the theoretical and practical aspects of IT.
                 </p>
-                <p>
+                <p data-aos="fade-up" data-aos-duration="2000">
                 I am now seeking an opportunity to apply my skills and experiences in a professional environment where I can contribute to meaningful projects while continuing to learn and grow. My background in IT, combined with my dedication to perseverance, adaptability, and continuous learning, makes me eager to bring value to a team in the tech industry.
                 </p>
             </div>
-            <div className='self-center'>
+            <div className='self-center' data-aos="fade-up" data-aos-duration="2000">
                 <h1 className="font-semibold text-[2rem] mb-[1rem]">My SKILLS</h1>
                 <ul className='icon-list flex flex-col items-center gap-[2rem] md:flex-row'>
                      <li><img src={Icons1} className="icon" alt="HTML" /> HTML</li> 

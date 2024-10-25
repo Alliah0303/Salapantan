@@ -1,8 +1,15 @@
 import { ParallaxBanner } from "react-scroll-parallax";
 import pic from "../assets/pikmo6.png"
 import "./Home.css"
+import TypingAnimation from "@/components/ui/typing-animation";
+import Aos from "aos";
+import "aos/dist/aos.css"
+import { useEffect } from "react";
 
 const Home = () => {
+    useEffect(()=>{
+        Aos.init();
+    }, [])
     return(
         <section className="home pb-[2rem] flex flex-col justify-between md:flex-row md:pb-[0] md:h-[100vh] w-[100%] relative overflow-hidden" id="home">
             <div className="px-[1rem] flex py-[1rem] flex-col items-center gap-[5rem] md:w-[50%] lg:px-[5rem]">
@@ -16,11 +23,15 @@ const Home = () => {
                 </nav>
                 <div className="self-center">
                    <div className="lg:leading-[5rem]">
-                   <h1 className="hey movable text-[#fff] text-[2rem] pt-[2rem] font-oswald md:text-[4rem]">Let's Bring Your Ideas to Life with Design and Development</h1>
+                   <h1 className=" "></h1>
+                   <TypingAnimation
+                    className="text-[#fff] text-[2rem]  pt-[2rem] font-oswald md:text-[3.5rem] lg:text-[4rem]"
+                    text="Let's Bring Your Ideas to Life with Design and Development!"
+                    />
                 </div>
                 </div>
             </div>
-            <div className="imageDesk w-[50%] hidden md:block absolute right-0">
+            <div className="imageDesk w-[50%] hidden md:block absolute right-0" >
             <ParallaxBanner
             layers={[{ image: 'src/assets/pikmo6.png', speed: 5, translateY: -30 }]}
             className="aspect-[1/1] hidden md:block h-screen"

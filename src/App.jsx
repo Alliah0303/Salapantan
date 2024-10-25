@@ -28,7 +28,7 @@ return (
         size={50}
       />
       :
-      <div>
+      <div className="w-[100%]">
         <ParallaxProvider>
         <Home />
       </ParallaxProvider>
