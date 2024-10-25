@@ -1,7 +1,7 @@
 import Icons1 from '../assets/HTML5.svg'
 import Icons2 from '../assets/CSS3.svg'
 import Icons3 from '../assets/Figma.svg'
-import Icons4 from '../assets/React.svg'
+import Icons4 from '../assets/react.svg'
 import Icons5 from '../assets/Nodejs.svg'
 import Icons6 from '../assets/Visual Studio Code.svg'
 import "./About.css"
