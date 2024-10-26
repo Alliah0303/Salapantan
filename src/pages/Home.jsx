@@ -2,14 +2,9 @@ import { ParallaxBanner } from "react-scroll-parallax";
 import pic from "../assets/pickoto.png"
 import "./Home.css"
 import TypingAnimation from "@/components/ui/typing-animation";
-import Aos from "aos";
-import "aos/dist/aos.css"
-import { useEffect } from "react";
 
 const Home = () => {
-    useEffect(()=>{
-        Aos.init();
-    }, [])
+
     return(
         <section className="home pb-[2rem] flex flex-col justify-between md:flex-row md:pb-[0] md:h-[100vh] w-[100%] relative overflow-hidden" id="home">
             <div className="px-[1rem] flex py-[1rem] flex-col items-center gap-[5rem] md:w-[50%] lg:px-[5rem]">
