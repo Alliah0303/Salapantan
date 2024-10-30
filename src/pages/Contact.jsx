@@ -14,7 +14,7 @@ const Contact = () => {
       <section className="bg-[#2E073F] text-center pt-[2rem]" id='contact'>
           <h2 className="text-[2rem] text-[#EBD3F8] font-semibold"data-aos="flip-left" data-aos-duration="2000" >CONNECT WITH ME</h2>
           <p className="text-[1rem] text-[#AD49E1] tracking-[.5rem]" data-aos="flip-left" data-aos-duration="2000" >ON MY SOCIAL NETWORKS OR EMAIL</p>
-          <ul className="social-icons flex flex-col items-center justify-center gap-[3rem] mt-[5rem] sm:flex-row"> 
+          <ul className="social-icons flex flex-col items-center justify-center gap-[3rem] mt-[4rem] sm:flex-row"> 
           <li className='media'  data-aos="flip-down" data-aos-duration="1000">
     <a href='https://www.facebook.com/profile.php?id=100020038524919&mibextid=ZbWKwL'> 
         <img src={facebook} alt="Facebook" className="icon-small" />
