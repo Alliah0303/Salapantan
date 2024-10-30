@@ -14,7 +14,7 @@ const Projects = () => {
         <section id="projects" className="flex flex-col text-center gap-[2rem]">
         <div className="w-[100%] bg-[#2E073F] py-[2rem] md:py-[4rem]">
             <h1 className="text-[3rem] text-[#EBD3F8] font-semibold" data-aos="flip-left" data-aos-duration="2000">MY PROJECTS</h1>
-            <p className="text-[1.2rem] text-[#AD49E1] tracking-[.5rem]" data-aos="flip-left" data-aos-duration="2000">MADE WITH LOVE</p>
+            <p className="text-[1.2rem] text-[#AD49E1] tracking-[.5rem]" data-aos="flip-left" data-aos-duration="2000">MADE TO INSPIRE PEOPLE</p>
         </div>
         <div className="px-[1rem] md:px-[10rem] py-[2rem]">
             <ul className='proj flex flex-col gap-[2rem] items-center sm:gap-[3rem]'>
