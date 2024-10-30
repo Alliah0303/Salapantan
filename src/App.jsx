@@ -23,7 +23,7 @@ return (
     {
       loading?
       <PulseLoader className="loader"
-        color={"#A020F0"}
+        color={"#7A1CAC"}
         loading={loading}
         size={50}
       />
