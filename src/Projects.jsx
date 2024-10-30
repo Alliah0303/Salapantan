@@ -1,4 +1,4 @@
-import card2 from './assets/Thumbnail.png'
+import card2 from './assets/Thumbnail.svg'
 import card1 from './assets/Thumbnail3.svg'
 import card3 from './assets/Thumbnail2.svg'
 import "./Projects.css"
