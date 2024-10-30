@@ -1,4 +1,4 @@
-import card2 from './assets/Thumbnail.svg'
+import card2 from './assets/Thumbnail.png'
 import card1 from './assets/Thumbnail3.svg'
 import card3 from './assets/Thumbnail2.svg'
 import "./Projects.css"
@@ -28,7 +28,7 @@ const Projects = () => {
                 </p>
     
                 <li className='cards' data-aos="zoom-in-down" data-aos-duration="2000">
-                    <a href="link-to-furniture-website" target="_blank" rel="noopener noreferrer">
+                    <a href="https://github.com/Alliah0303/Furniture" target="_blank" rel="noopener noreferrer">
                         <img src={card2} alt="Furniture Selling Website" />
                     </a>
                 </li>
@@ -37,7 +37,7 @@ const Projects = () => {
                 </p>
     
                 <li className='cards' data-aos="zoom-in-down" data-aos-duration="2000">
-                    <a href="link-to-nexcent" target="_blank" rel="noopener noreferrer">
+                    <a href="https://github.com/Alliah0303/Nexcent" target="_blank" rel="noopener noreferrer">
                         <img src={card3} alt="Nexcent" />
                     </a>
                 </li>
