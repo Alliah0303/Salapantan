@@ -1,0 +1,15 @@
+.cards {
+    border-radius: 10px; /* Adjust radius as needed */
+    overflow: hidden; /* Ensures corners are rounded for the image */
+    transition: transform 0.3s; /* Smooth hover effect */
+}
+
+.cards:hover {
+    transform: scale(1.05); /* Slightly enlarge on hover */
+}
+
+.cards img {
+    width: 100%; /* Make the image responsive */
+    height: auto; /* Maintain aspect ratio */
+    border-radius: 10px; /* Ensure the image also has rounded corners */
+}
