@@ -14,7 +14,7 @@ const About = () => {
         Aos.init();
     }, [])
     return(
-        <section className="px-[1rem] flex flex-col text-center md:px-[10rem] text-[#2E073F] pt-[5rem] pb-[3rem] gap-[2rem]" id='about'>
+        <section className="px-[1rem] flex flex-col text-center md:px-[10rem] text-[#2E073F] pt-[6rem] pb-[5rem] gap-[2rem]" id='about'>
             <div data-aos="fade-up"data-aos-duration="2000">
                 <h1 className="font-semibold text-[2rem] mb-[1rem]">ABOUT ME</h1>
                 <p className='text-left'>
